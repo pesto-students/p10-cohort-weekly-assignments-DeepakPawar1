@@ -11,7 +11,9 @@ function MainCard({addData}){
     const handleSubmit = (event)=>{
         event.preventDefault();
         console.log(note)
+        if (note !== ""){
         addData({"note": note,"completion":0})
+    }
         setNote("");
     }
 
