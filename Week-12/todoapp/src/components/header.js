@@ -1,14 +1,7 @@
-import './header.css';
+import "./header.css";
 
-function Header(){
-
-
-    return (
-
-        <div className="header">
-            ToDo Application
-        </div>
-    )
-};
+function Header() {
+  return <div className="header">ToDo Application</div>;
+}
 
 export default Header;
