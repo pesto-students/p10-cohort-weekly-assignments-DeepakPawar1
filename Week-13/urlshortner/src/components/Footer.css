@@ -1,0 +1,35 @@
+.Footer{
+
+background-color: gainsboro;
+position: absolute;
+bottom: 0;
+width: 100%;
+height: 10%;
+display: flex;
+}
+
+.flogo{
+    flex:1;
+    margin-left: 20px;
+    font-size:30px;
+}
+
+.Fcontent{
+    display:flex;
+    flex-direction: row;
+    gap:10%;
+    flex:2;
+    margin-left: 10%;
+}
+
+.Fsignlog{
+    display:flex;
+    flex-direction: row;
+    gap:10%;
+    flex:1;
+}
+
+.Fcontentfirst , .Fcontentsecond , .Fcontentthird{
+    display: flex;
+    flex-direction: column;
+}

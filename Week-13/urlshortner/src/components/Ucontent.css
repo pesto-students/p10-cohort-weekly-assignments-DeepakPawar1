@@ -1,0 +1,27 @@
+
+.left{
+    padding-top: 30px;
+    padding-left: 120px;
+    flex: 3;
+}
+.right{
+    flex:1
+}
+.Ucontent{
+    display: flex;
+}
+
+.heading{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.detail{
+    font-size: 18px;
+}
+
+
+#cardimage{
+    width: 350px;
+    height:350px;
+}
+
