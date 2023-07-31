@@ -1,0 +1,11 @@
+.maincard{
+
+    display: flex;
+    justify-content: center;
+    background-color: beige;
+}
+
+.Mnote{
+    width: 500px;
+    height: 25px;
+}
