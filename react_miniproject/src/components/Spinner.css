@@ -1,0 +1,33 @@
+.loading-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* Adjust the height as needed */
+  }
+  
+  /* Define the spinner animation */
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  /* Style the spinner element */
+  .Spinner {
+    border: 3px solid rgba(0, 0, 0, 0.3);
+    border-top: 3px solid #3498db;
+    border-radius: 50%;
+    width: 20%;
+    height: 30%;
+    animation: spin 1s linear infinite;
+    margin-top: 20%;
+    margin-left: 35%;
+  }
+
+  .spinnerContainer{
+    width:60%;
+    height:100%;
+  }

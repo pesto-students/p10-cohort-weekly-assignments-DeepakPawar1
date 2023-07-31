@@ -1,0 +1,11 @@
+.Header{
+    display:flex;
+    height:10vh;
+}
+
+.logo p{
+    font-size: 23px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
