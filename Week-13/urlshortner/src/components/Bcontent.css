@@ -1,0 +1,30 @@
+.Bcontent{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.Bcontent  div {
+    height:6vh;
+    width: 50%;
+    margin-top: 10px;
+    border: .01rem solid #a4a4ac;
+    border-radius:4px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+.Bcontent  div form{
+    width: 100%;
+}
+
+ .Bcontent  div form input:first-child {
+    width: 70%;
+    margin-left:20px;
+}
+.Bcontent  div form input:nth-child(2) { 
+    width: 15%;
+    margin-left:20px;
+}

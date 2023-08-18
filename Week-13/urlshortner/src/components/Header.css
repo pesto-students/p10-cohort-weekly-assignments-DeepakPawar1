@@ -1,0 +1,28 @@
+.mheader{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    height: 80px;
+    background-color: gainsboro;
+}
+
+.logo{
+    padding-left: 20px;
+    font-size: 30px;
+    flex: 1;
+}
+
+.frog{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    flex:2;
+}
+.logsign{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    flex:1;
+}
